@@ -43,7 +43,7 @@ public class TestBase {
         }
     }
 
-    public void maximizeScreen(WebDriver driver) {
+    public static void maximizeScreen(WebDriver driver) {
         java.awt.Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         Point position = new Point(0, 0);
         driver.manage().window().setPosition(position);

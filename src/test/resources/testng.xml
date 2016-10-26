@@ -4,7 +4,7 @@
     <test name="Test1">
         <parameter name="path" value="/"/>
         <classes>
-            <class name="com.jdi_lectures.SmokeTest"/>
+            <class name="com.jdi_lectures.PageObjectsTests"/>
         </classes>
     </test>
 </suite>

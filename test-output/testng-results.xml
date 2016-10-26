@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[1 Init test run]]>
+    </line>
+    <line>
+      <![CDATA[1 Page 'Home Page' should be opened]]>
+    </line>
+    <line>
+      <![CDATA[1 Open page 'Home Page' by url https://jdi-framework.github.io/tests/index.htm for HomePage 'Home Page' (.homePage; No Locators)]]>
+    </line>
+    <line>
+      <![CDATA[1 Done]]>
+    </line>
+    <line>
+      <![CDATA[1 Click on Element for Clickable 'Profile Photo' (HomePage.profilePhoto; ; xpath='.//*[@class='dropdown uui-profile-menu']')]]>
+    </line>
+    <line>
+      <![CDATA[1 Get web element for Clickable 'Profile Photo' (HomePage.profilePhoto; ; xpath='.//*[@class='dropdown uui-profile-menu']')]]>
+    </line>
+    <line>
+      <![CDATA[0 Get Web Element: Clickable 'Profile Photo' (HomePage.profilePhoto; ; xpath='.//*[@class='dropdown uui-profile-menu']')]]>
+    </line>
+    <line>
+      <![CDATA[0 One Element found]]>
+    </line>
+    <line>
+      <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> xpath: .//*[@class='dropdown uui-profile-menu']]' in 0.17 seconds]]>
+    </line>
+    <line>
+      <![CDATA[1 Done]]>
+    </line>
+    <line>
+      <![CDATA[1 Clear text field for TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+    </line>
+    <line>
+      <![CDATA[1 Get web element for TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+    </line>
+    <line>
+      <![CDATA[0 Get Web Element: TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+    </line>
+    <line>
+      <![CDATA[0 One Element found]]>
+    </line>
+    <line>
+      <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Login]' in 0.09 seconds]]>
+    </line>
+    <line>
+      <![CDATA[1 Done]]>
+    </line>
+    <line>
+      <![CDATA[1 Input text 'epam' in text field for TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+    </line>
+    <line>
+      <![CDATA[1 Get web element for TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+    </line>
+    <line>
+      <![CDATA[0 Get Web Element: TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+    </line>
+    <line>
+      <![CDATA[0 One Element found]]>
+    </line>
+    <line>
+      <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Login]' in 0.04 seconds]]>
+    </line>
+    <line>
+      <![CDATA[1 Done]]>
+    </line>
+    <line>
+      <![CDATA[1 Clear text field for TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+    </line>
+    <line>
+      <![CDATA[1 Get web element for TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+    </line>
+    <line>
+      <![CDATA[0 Get Web Element: TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+    </line>
+    <line>
+      <![CDATA[0 One Element found]]>
+    </line>
+    <line>
+      <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Password]' in 0.07 seconds]]>
+    </line>
+    <line>
+      <![CDATA[1 Done]]>
+    </line>
+    <line>
+      <![CDATA[1 Input text '1234' in text field for TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+    </line>
+    <line>
+      <![CDATA[1 Get web element for TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+    </line>
+    <line>
+      <![CDATA[0 Get Web Element: TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+    </line>
+    <line>
+      <![CDATA[0 One Element found]]>
+    </line>
+    <line>
+      <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Password]' in 0.05 seconds]]>
+    </line>
+    <line>
+      <![CDATA[1 Done]]>
+    </line>
+    <line>
+      <![CDATA[1 Click on Element for Button 'Submit Button' (HomePage.submitButton; ; xpath='//form//button[@type='submit']')]]>
+    </line>
+    <line>
+      <![CDATA[1 Get web element for Button 'Submit Button' (HomePage.submitButton; ; xpath='//form//button[@type='submit']')]]>
+    </line>
+    <line>
+      <![CDATA[0 Get Web Element: Button 'Submit Button' (HomePage.submitButton; ; xpath='//form//button[@type='submit']')]]>
+    </line>
+    <line>
+      <![CDATA[0 One Element found]]>
+    </line>
+    <line>
+      <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> xpath: .//form//button[@type='submit']]' in 0.08 seconds]]>
+    </line>
+    <line>
+      <![CDATA[1 Done]]>
+    </line>
+    <line>
+      <![CDATA[1 Is element displayed for Button 'Logout Button' (HomePage.logoutButton; ; xpath='//div[@class='logout']/button[@type='submit']')]]>
+    </line>
+    <line>
+      <![CDATA[0 Set wait timeout to 0]]>
+    </line>
+    <line>
+      <![CDATA[1 Get web element for Button 'Logout Button' (HomePage.logoutButton; ; xpath='//div[@class='logout']/button[@type='submit']')]]>
+    </line>
+    <line>
+      <![CDATA[0 Get Web Element: Button 'Logout Button' (HomePage.logoutButton; ; xpath='//div[@class='logout']/button[@type='submit']')]]>
+    </line>
+    <line>
+      <![CDATA[0 One Element found]]>
+    </line>
+    <line>
+      <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> xpath: .//div[@class='logout']/button[@type='submit']]' in 0.03 seconds]]>
+    </line>
+    <line>
+      <![CDATA[0 Set wait timeout to 5]]>
+    </line>
+    <line>
+      <![CDATA[1 Get result 'true' in 0.08 seconds]]>
+    </line>
+    <line>
+      <![CDATA[1 Test run finished. 
+Total test run time: 00:00:07.576]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3022" started-at="2016-10-20T09:46:45Z" finished-at="2016-10-20T09:46:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3022" started-at="2016-10-20T09:46:45Z" finished-at="2016-10-20T09:46:48Z">
+      <class name="com.jdi_lectures.PageObjectsTests">
+        <test-method status="PASS" signature="jdiSetUp()[pri:0, instance:com.jdi_lectures.PageObjectsTests@59a6e353]" name="jdiSetUp" is-config="true" duration-ms="385" started-at="2016-10-20T12:46:40Z" finished-at="2016-10-20T12:46:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[1 Init test run]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- jdiSetUp -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.jdi_lectures.PageObjectsTests@59a6e353]" name="initTest" is-config="true" duration-ms="4485" started-at="2016-10-20T12:46:41Z" depends-on-methods="com.epam.jdi.uitests.web.testng.testRunner.TestNGBase.jdiSetUp" finished-at="2016-10-20T12:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.jdi_lectures.PageObjectsTests@59a6e353]" name="loginTest" duration-ms="2976" started-at="2016-10-20T12:46:45Z" data-provider="users" finished-at="2016-10-20T12:46:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[epam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[1 Page 'Home Page' should be opened]]>
+            </line>
+            <line>
+              <![CDATA[1 Open page 'Home Page' by url https://jdi-framework.github.io/tests/index.htm for HomePage 'Home Page' (.homePage; No Locators)]]>
+            </line>
+            <line>
+              <![CDATA[1 Done]]>
+            </line>
+            <line>
+              <![CDATA[1 Click on Element for Clickable 'Profile Photo' (HomePage.profilePhoto; ; xpath='.//*[@class='dropdown uui-profile-menu']')]]>
+            </line>
+            <line>
+              <![CDATA[1 Get web element for Clickable 'Profile Photo' (HomePage.profilePhoto; ; xpath='.//*[@class='dropdown uui-profile-menu']')]]>
+            </line>
+            <line>
+              <![CDATA[0 Get Web Element: Clickable 'Profile Photo' (HomePage.profilePhoto; ; xpath='.//*[@class='dropdown uui-profile-menu']')]]>
+            </line>
+            <line>
+              <![CDATA[0 One Element found]]>
+            </line>
+            <line>
+              <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> xpath: .//*[@class='dropdown uui-profile-menu']]' in 0.17 seconds]]>
+            </line>
+            <line>
+              <![CDATA[1 Done]]>
+            </line>
+            <line>
+              <![CDATA[1 Clear text field for TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+            </line>
+            <line>
+              <![CDATA[1 Get web element for TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+            </line>
+            <line>
+              <![CDATA[0 Get Web Element: TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+            </line>
+            <line>
+              <![CDATA[0 One Element found]]>
+            </line>
+            <line>
+              <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Login]' in 0.09 seconds]]>
+            </line>
+            <line>
+              <![CDATA[1 Done]]>
+            </line>
+            <line>
+              <![CDATA[1 Input text 'epam' in text field for TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+            </line>
+            <line>
+              <![CDATA[1 Get web element for TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+            </line>
+            <line>
+              <![CDATA[0 Get Web Element: TextField 'Login Field' (HomePage.loginField; ; id='Login')]]>
+            </line>
+            <line>
+              <![CDATA[0 One Element found]]>
+            </line>
+            <line>
+              <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Login]' in 0.04 seconds]]>
+            </line>
+            <line>
+              <![CDATA[1 Done]]>
+            </line>
+            <line>
+              <![CDATA[1 Clear text field for TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+            </line>
+            <line>
+              <![CDATA[1 Get web element for TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+            </line>
+            <line>
+              <![CDATA[0 Get Web Element: TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+            </line>
+            <line>
+              <![CDATA[0 One Element found]]>
+            </line>
+            <line>
+              <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Password]' in 0.07 seconds]]>
+            </line>
+            <line>
+              <![CDATA[1 Done]]>
+            </line>
+            <line>
+              <![CDATA[1 Input text '1234' in text field for TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+            </line>
+            <line>
+              <![CDATA[1 Get web element for TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+            </line>
+            <line>
+              <![CDATA[0 Get Web Element: TextField 'Password Field' (HomePage.passwordField; ; id='Password')]]>
+            </line>
+            <line>
+              <![CDATA[0 One Element found]]>
+            </line>
+            <line>
+              <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Password]' in 0.05 seconds]]>
+            </line>
+            <line>
+              <![CDATA[1 Done]]>
+            </line>
+            <line>
+              <![CDATA[1 Click on Element for Button 'Submit Button' (HomePage.submitButton; ; xpath='//form//button[@type='submit']')]]>
+            </line>
+            <line>
+              <![CDATA[1 Get web element for Button 'Submit Button' (HomePage.submitButton; ; xpath='//form//button[@type='submit']')]]>
+            </line>
+            <line>
+              <![CDATA[0 Get Web Element: Button 'Submit Button' (HomePage.submitButton; ; xpath='//form//button[@type='submit']')]]>
+            </line>
+            <line>
+              <![CDATA[0 One Element found]]>
+            </line>
+            <line>
+              <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> xpath: .//form//button[@type='submit']]' in 0.08 seconds]]>
+            </line>
+            <line>
+              <![CDATA[1 Done]]>
+            </line>
+            <line>
+              <![CDATA[1 Is element displayed for Button 'Logout Button' (HomePage.logoutButton; ; xpath='//div[@class='logout']/button[@type='submit']')]]>
+            </line>
+            <line>
+              <![CDATA[0 Set wait timeout to 0]]>
+            </line>
+            <line>
+              <![CDATA[1 Get web element for Button 'Logout Button' (HomePage.logoutButton; ; xpath='//div[@class='logout']/button[@type='submit']')]]>
+            </line>
+            <line>
+              <![CDATA[0 Get Web Element: Button 'Logout Button' (HomePage.logoutButton; ; xpath='//div[@class='logout']/button[@type='submit']')]]>
+            </line>
+            <line>
+              <![CDATA[0 One Element found]]>
+            </line>
+            <line>
+              <![CDATA[0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> xpath: .//div[@class='logout']/button[@type='submit']]' in 0.03 seconds]]>
+            </line>
+            <line>
+              <![CDATA[0 Set wait timeout to 5]]>
+            </line>
+            <line>
+              <![CDATA[1 Get result 'true' in 0.08 seconds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="jdiTearDown()[pri:0, instance:com.jdi_lectures.PageObjectsTests@59a6e353]" name="jdiTearDown" is-config="true" duration-ms="8" started-at="2016-10-20T12:46:48Z" finished-at="2016-10-20T12:46:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[1 Test run finished. 
+Total test run time: 00:00:07.576]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- jdiTearDown -->
+      </class> <!-- com.jdi_lectures.PageObjectsTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

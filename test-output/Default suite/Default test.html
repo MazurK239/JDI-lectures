@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 20 12:46:45 MSK 2016</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3022 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jdi_lectures.PageObjectsTests.loginTest()'><b>loginTest</b><br>Test class: com.jdi_lectures.PageObjectsTests<br>Parameters: epam, 1234<br/>
+<a href="#Output-1068586139" onClick='toggleBox("Output-1068586139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1068586139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1068586139">
+1 Page 'Home Page' should be opened<br/>
+1 Open page 'Home Page' by url https://jdi-framework.github.io/tests/index.htm for HomePage 'Home Page' (.homePage; No Locators)<br/>
+1 Done<br/>
+1 Click on Element for Clickable 'Profile Photo' (HomePage.profilePhoto; ; xpath='.//*[@class='dropdown uui-profile-menu']')<br/>
+1 Get web element for Clickable 'Profile Photo' (HomePage.profilePhoto; ; xpath='.//*[@class='dropdown uui-profile-menu']')<br/>
+0 Get Web Element: Clickable 'Profile Photo' (HomePage.profilePhoto; ; xpath='.//*[@class='dropdown uui-profile-menu']')<br/>
+0 One Element found<br/>
+0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> xpath: .//*[@class='dropdown uui-profile-menu']]' in 0.17 seconds<br/>
+1 Done<br/>
+1 Clear text field for TextField 'Login Field' (HomePage.loginField; ; id='Login')<br/>
+1 Get web element for TextField 'Login Field' (HomePage.loginField; ; id='Login')<br/>
+0 Get Web Element: TextField 'Login Field' (HomePage.loginField; ; id='Login')<br/>
+0 One Element found<br/>
+0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Login]' in 0.09 seconds<br/>
+1 Done<br/>
+1 Input text 'epam' in text field for TextField 'Login Field' (HomePage.loginField; ; id='Login')<br/>
+1 Get web element for TextField 'Login Field' (HomePage.loginField; ; id='Login')<br/>
+0 Get Web Element: TextField 'Login Field' (HomePage.loginField; ; id='Login')<br/>
+0 One Element found<br/>
+0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Login]' in 0.04 seconds<br/>
+1 Done<br/>
+1 Clear text field for TextField 'Password Field' (HomePage.passwordField; ; id='Password')<br/>
+1 Get web element for TextField 'Password Field' (HomePage.passwordField; ; id='Password')<br/>
+0 Get Web Element: TextField 'Password Field' (HomePage.passwordField; ; id='Password')<br/>
+0 One Element found<br/>
+0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Password]' in 0.07 seconds<br/>
+1 Done<br/>
+1 Input text '1234' in text field for TextField 'Password Field' (HomePage.passwordField; ; id='Password')<br/>
+1 Get web element for TextField 'Password Field' (HomePage.passwordField; ; id='Password')<br/>
+0 Get Web Element: TextField 'Password Field' (HomePage.passwordField; ; id='Password')<br/>
+0 One Element found<br/>
+0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> id: Password]' in 0.05 seconds<br/>
+1 Done<br/>
+1 Click on Element for Button 'Submit Button' (HomePage.submitButton; ; xpath='//form//button[@type='submit']')<br/>
+1 Get web element for Button 'Submit Button' (HomePage.submitButton; ; xpath='//form//button[@type='submit']')<br/>
+0 Get Web Element: Button 'Submit Button' (HomePage.submitButton; ; xpath='//form//button[@type='submit']')<br/>
+0 One Element found<br/>
+0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> xpath: .//form//button[@type='submit']]' in 0.08 seconds<br/>
+1 Done<br/>
+1 Is element displayed for Button 'Logout Button' (HomePage.logoutButton; ; xpath='//div[@class='logout']/button[@type='submit']')<br/>
+0 Set wait timeout to 0<br/>
+1 Get web element for Button 'Logout Button' (HomePage.logoutButton; ; xpath='//div[@class='logout']/button[@type='submit']')<br/>
+0 Get Web Element: Button 'Logout Button' (HomePage.logoutButton; ; xpath='//div[@class='logout']/button[@type='submit']')<br/>
+0 One Element found<br/>
+0 Get result '[[ChromeDriver: chrome on MAC (65cd8f164f79ed38979cdd19f8c71fa9)] -> xpath: .//div[@class='logout']/button[@type='submit']]' in 0.03 seconds<br/>
+0 Set wait timeout to 5<br/>
+1 Get result 'true' in 0.08 seconds<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.jdi_lectures.PageObjectsTests@59a6e353</td></tr>
+</table><p>
+</body>
+</html>

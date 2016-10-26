@@ -1,6 +1,7 @@
 package com.jdi_lectures;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -23,6 +24,24 @@ public class SmokeTest extends TestBase {
         driver.findElement(By.xpath("//button/span[text()='Enter']")).click();
         Assert.assertTrue(driver.findElement(By.xpath("//div[contains(@class, 'logout')]/button")).isDisplayed());
         Assert.assertTrue(driver.getTitle().equals("Index Page"));
+    }
+
+    @Test
+    public void successfulLoginEnter() {
+        driver.findElement(By.xpath("//*[@class='dropdown uui-profile-menu']")).click();
+        driver.findElement(By.id("Login")).sendKeys("epam");
+        driver.findElement(By.id("Password")).sendKeys("1234" + Keys.RETURN);
+        Assert.assertTrue(driver.findElement(By.xpath("//div[contains(@class, 'logout')]/button")).isDisplayed());
+        Assert.assertTrue(driver.getTitle().equals("Index Page"));
+    }
+
+    @Test
+    public void badLogin() {
+        driver.findElement(By.xpath("//*[@class='dropdown uui-profile-menu']")).click();
+        driver.findElement(By.id("Login")).sendKeys("epamm");
+        driver.findElement(By.id("Password")).sendKeys("12345");
+        driver.findElement(By.xpath("//button/span[text()='Enter']")).click();
+        Assert.assertTrue(driver.findElement(By.xpath("//span[contains(text(), 'Login Faild')]")).isDisplayed());
     }
 
     @Test(dependsOnMethods = {"successfulLogin"})
